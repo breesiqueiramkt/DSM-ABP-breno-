@@ -16,6 +16,14 @@ Projeto de Aprendizagem Baseada em Projetos do **1º DSM da Fatec Jacareí**, se
 
 **Apresentação final:** 26/11/2026. A Sprint 1 segue o escopo confirmado pelo grupo: protótipo e modelagem integral, incluindo os requisitos programados nas próximas Sprints.
 
+## Atividades por Sprint
+
+- [Sprint 1 — 50 atividades](https://github.com/breesiqueiramkt/DSM-ABP-breno-/milestone/1)
+- [Sprint 2 — 31 atividades](https://github.com/breesiqueiramkt/DSM-ABP-breno-/milestone/2)
+- [Sprint 3 — 26 atividades](https://github.com/breesiqueiramkt/DSM-ABP-breno-/milestone/3)
+
+As 107 issues estão abertas, sem atribuição e vinculadas às milestones. Consultar o [backlog](documentos/Gestao/BACKLOG.md) para critérios e dependências.
+
 ## Regras principais do portal
 
 - Cadastro com CPF único, nome completo, e-mail e senha; login por CPF e senha.

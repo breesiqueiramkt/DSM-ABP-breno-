@@ -77,7 +77,9 @@
       ],
       "area": "frontend",
       "depends_on": [],
-      "task_origin": "001"
+      "task_origin": "001",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/2",
+      "github_issue_number": 2
     },
     {
       "key": "T002",
@@ -88,7 +90,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "002"
+      "task_origin": "002",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/3",
+      "github_issue_number": 3
     },
     {
       "key": "T003",
@@ -99,7 +103,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "003"
+      "task_origin": "003",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/4",
+      "github_issue_number": 4
     },
     {
       "key": "T004",
@@ -110,7 +116,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "004"
+      "task_origin": "004",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/5",
+      "github_issue_number": 5
     },
     {
       "key": "T005",
@@ -124,7 +132,9 @@
         "T018",
         "T019"
       ],
-      "task_origin": "005"
+      "task_origin": "005",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/6",
+      "github_issue_number": 6
     },
     {
       "key": "T006",
@@ -135,7 +145,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "006"
+      "task_origin": "006",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/7",
+      "github_issue_number": 7
     },
     {
       "key": "T007",
@@ -146,7 +158,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "007"
+      "task_origin": "007",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/8",
+      "github_issue_number": 8
     },
     {
       "key": "T008",
@@ -157,7 +171,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "008"
+      "task_origin": "008",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/9",
+      "github_issue_number": 9
     },
     {
       "key": "T009",
@@ -170,7 +186,9 @@
       "depends_on": [
         "T010"
       ],
-      "task_origin": "009"
+      "task_origin": "009",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/10",
+      "github_issue_number": 10
     },
     {
       "key": "T010",
@@ -181,7 +199,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "010"
+      "task_origin": "010",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/11",
+      "github_issue_number": 11
     },
     {
       "key": "T011",
@@ -192,7 +212,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "011"
+      "task_origin": "011",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/12",
+      "github_issue_number": 12
     },
     {
       "key": "T012",
@@ -203,7 +225,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "012"
+      "task_origin": "012",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/13",
+      "github_issue_number": 13
     },
     {
       "key": "T013",
@@ -216,7 +240,9 @@
       "depends_on": [
         "T012"
       ],
-      "task_origin": "013"
+      "task_origin": "013",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/14",
+      "github_issue_number": 14
     },
     {
       "key": "T014",
@@ -229,7 +255,9 @@
       "depends_on": [
         "T015"
       ],
-      "task_origin": "014"
+      "task_origin": "014",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/15",
+      "github_issue_number": 15
     },
     {
       "key": "T015",
@@ -240,7 +268,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "015"
+      "task_origin": "015",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/16",
+      "github_issue_number": 16
     },
     {
       "key": "T016",
@@ -251,7 +281,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "016"
+      "task_origin": "016",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/17",
+      "github_issue_number": 17
     },
     {
       "key": "T017",
@@ -262,7 +294,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "017"
+      "task_origin": "017",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/18",
+      "github_issue_number": 18
     },
     {
       "key": "T018",
@@ -276,7 +310,9 @@
         "T017",
         "T013"
       ],
-      "task_origin": "018"
+      "task_origin": "018",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/19",
+      "github_issue_number": 19
     },
     {
       "key": "T019",
@@ -289,7 +325,9 @@
       "depends_on": [
         "T026"
       ],
-      "task_origin": "019"
+      "task_origin": "019",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/20",
+      "github_issue_number": 20
     },
     {
       "key": "T020",
@@ -303,7 +341,9 @@
         "T021",
         "T024"
       ],
-      "task_origin": "020"
+      "task_origin": "020",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/21",
+      "github_issue_number": 21
     },
     {
       "key": "T021",
@@ -314,7 +354,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "021"
+      "task_origin": "021",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/22",
+      "github_issue_number": 22
     },
     {
       "key": "T022",
@@ -325,7 +367,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "022"
+      "task_origin": "022",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/23",
+      "github_issue_number": 23
     },
     {
       "key": "T023",
@@ -336,7 +380,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "023"
+      "task_origin": "023",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/24",
+      "github_issue_number": 24
     },
     {
       "key": "T024",
@@ -349,7 +395,9 @@
       "depends_on": [
         "T026"
       ],
-      "task_origin": "024"
+      "task_origin": "024",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/25",
+      "github_issue_number": 25
     },
     {
       "key": "T025",
@@ -360,7 +408,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "025"
+      "task_origin": "025",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/26",
+      "github_issue_number": 26
     },
     {
       "key": "T026",
@@ -371,7 +421,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "026"
+      "task_origin": "026",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/27",
+      "github_issue_number": 27
     },
     {
       "key": "T027",
@@ -384,7 +436,9 @@
       "depends_on": [
         "T029"
       ],
-      "task_origin": "027"
+      "task_origin": "027",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/28",
+      "github_issue_number": 28
     },
     {
       "key": "T028",
@@ -398,7 +452,9 @@
         "T027",
         "T094"
       ],
-      "task_origin": "028"
+      "task_origin": "028",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/29",
+      "github_issue_number": 29
     },
     {
       "key": "T029",
@@ -409,7 +465,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "029"
+      "task_origin": "029",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/30",
+      "github_issue_number": 30
     },
     {
       "key": "T030",
@@ -420,7 +478,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "030"
+      "task_origin": "030",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/31",
+      "github_issue_number": 31
     },
     {
       "key": "T031",
@@ -433,7 +493,9 @@
       "depends_on": [
         "T026"
       ],
-      "task_origin": "031"
+      "task_origin": "031",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/32",
+      "github_issue_number": 32
     },
     {
       "key": "T032",
@@ -447,7 +509,9 @@
         "T020",
         "T035"
       ],
-      "task_origin": "032"
+      "task_origin": "032",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/33",
+      "github_issue_number": 33
     },
     {
       "key": "T033",
@@ -458,7 +522,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "033"
+      "task_origin": "033",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/34",
+      "github_issue_number": 34
     },
     {
       "key": "T034",
@@ -471,7 +537,9 @@
       "depends_on": [
         "T024"
       ],
-      "task_origin": "034"
+      "task_origin": "034",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/35",
+      "github_issue_number": 35
     },
     {
       "key": "T035",
@@ -484,7 +552,9 @@
       "depends_on": [
         "T037"
       ],
-      "task_origin": "035"
+      "task_origin": "035",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/36",
+      "github_issue_number": 36
     },
     {
       "key": "T036",
@@ -495,7 +565,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "036"
+      "task_origin": "036",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/37",
+      "github_issue_number": 37
     },
     {
       "key": "T037",
@@ -506,7 +578,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "037"
+      "task_origin": "037",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/38",
+      "github_issue_number": 38
     },
     {
       "key": "T038",
@@ -520,7 +594,9 @@
         "T020",
         "T095"
       ],
-      "task_origin": "038"
+      "task_origin": "038",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/39",
+      "github_issue_number": 39
     },
     {
       "key": "T039",
@@ -534,7 +610,9 @@
         "T038",
         "T035"
       ],
-      "task_origin": "039"
+      "task_origin": "039",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/40",
+      "github_issue_number": 40
     },
     {
       "key": "T040",
@@ -547,7 +625,9 @@
       "depends_on": [
         "T032"
       ],
-      "task_origin": "040"
+      "task_origin": "040",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/41",
+      "github_issue_number": 41
     },
     {
       "key": "T041",
@@ -560,7 +640,9 @@
       "depends_on": [
         "T035"
       ],
-      "task_origin": "041"
+      "task_origin": "041",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/42",
+      "github_issue_number": 42
     },
     {
       "key": "T042",
@@ -574,7 +656,9 @@
         "T041",
         "T043"
       ],
-      "task_origin": "042"
+      "task_origin": "042",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/43",
+      "github_issue_number": 43
     },
     {
       "key": "T043",
@@ -588,7 +672,9 @@
         "T095",
         "T035"
       ],
-      "task_origin": "043"
+      "task_origin": "043",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/44",
+      "github_issue_number": 44
     },
     {
       "key": "T044",
@@ -602,7 +688,9 @@
         "T023",
         "T035"
       ],
-      "task_origin": "044"
+      "task_origin": "044",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/45",
+      "github_issue_number": 45
     },
     {
       "key": "T045",
@@ -615,7 +703,9 @@
       "depends_on": [
         "T044"
       ],
-      "task_origin": "045"
+      "task_origin": "045",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/46",
+      "github_issue_number": 46
     },
     {
       "key": "T046",
@@ -628,7 +718,9 @@
       "depends_on": [
         "T048"
       ],
-      "task_origin": "046"
+      "task_origin": "046",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/47",
+      "github_issue_number": 47
     },
     {
       "key": "T047",
@@ -639,7 +731,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "047"
+      "task_origin": "047",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/48",
+      "github_issue_number": 48
     },
     {
       "key": "T048",
@@ -653,7 +747,9 @@
         "T035",
         "T044"
       ],
-      "task_origin": "048"
+      "task_origin": "048",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/49",
+      "github_issue_number": 49
     },
     {
       "key": "T049",
@@ -664,7 +760,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "049"
+      "task_origin": "049",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/50",
+      "github_issue_number": 50
     },
     {
       "key": "T050",
@@ -675,7 +773,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "050"
+      "task_origin": "050",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/51",
+      "github_issue_number": 51
     },
     {
       "key": "T051",
@@ -689,7 +789,9 @@
         "T048",
         "T053"
       ],
-      "task_origin": "051"
+      "task_origin": "051",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/52",
+      "github_issue_number": 52
     },
     {
       "key": "T052",
@@ -700,7 +802,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "052"
+      "task_origin": "052",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/53",
+      "github_issue_number": 53
     },
     {
       "key": "T053",
@@ -711,7 +815,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "053"
+      "task_origin": "053",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/54",
+      "github_issue_number": 54
     },
     {
       "key": "T054",
@@ -722,7 +828,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "054"
+      "task_origin": "054",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/55",
+      "github_issue_number": 55
     },
     {
       "key": "T055",
@@ -736,7 +844,9 @@
         "T051",
         "T060"
       ],
-      "task_origin": "055"
+      "task_origin": "055",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/56",
+      "github_issue_number": 56
     },
     {
       "key": "T056",
@@ -750,7 +860,9 @@
         "T055",
         "T058"
       ],
-      "task_origin": "056"
+      "task_origin": "056",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/57",
+      "github_issue_number": 57
     },
     {
       "key": "T057",
@@ -763,7 +875,9 @@
       "depends_on": [
         "T048"
       ],
-      "task_origin": "057"
+      "task_origin": "057",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/58",
+      "github_issue_number": 58
     },
     {
       "key": "T058",
@@ -776,7 +890,9 @@
       "depends_on": [
         "T013"
       ],
-      "task_origin": "058"
+      "task_origin": "058",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/59",
+      "github_issue_number": 59
     },
     {
       "key": "T059",
@@ -787,7 +903,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "059"
+      "task_origin": "059",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/60",
+      "github_issue_number": 60
     },
     {
       "key": "T060",
@@ -798,7 +916,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "060"
+      "task_origin": "060",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/61",
+      "github_issue_number": 61
     },
     {
       "key": "T061",
@@ -809,7 +929,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "061"
+      "task_origin": "061",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/62",
+      "github_issue_number": 62
     },
     {
       "key": "T062",
@@ -823,7 +945,9 @@
         "T051",
         "T060"
       ],
-      "task_origin": "062"
+      "task_origin": "062",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/63",
+      "github_issue_number": 63
     },
     {
       "key": "T063",
@@ -836,7 +960,9 @@
       "depends_on": [
         "T062"
       ],
-      "task_origin": "063"
+      "task_origin": "063",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/64",
+      "github_issue_number": 64
     },
     {
       "key": "T064",
@@ -849,7 +975,9 @@
       "depends_on": [
         "T035"
       ],
-      "task_origin": "064"
+      "task_origin": "064",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/65",
+      "github_issue_number": 65
     },
     {
       "key": "T065",
@@ -862,7 +990,9 @@
       "depends_on": [
         "T069"
       ],
-      "task_origin": "065"
+      "task_origin": "065",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/66",
+      "github_issue_number": 66
     },
     {
       "key": "T066",
@@ -875,7 +1005,9 @@
       "depends_on": [
         "T069"
       ],
-      "task_origin": "066"
+      "task_origin": "066",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/67",
+      "github_issue_number": 67
     },
     {
       "key": "T067",
@@ -886,7 +1018,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "067"
+      "task_origin": "067",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/68",
+      "github_issue_number": 68
     },
     {
       "key": "T068",
@@ -899,7 +1033,9 @@
       "depends_on": [
         "T035"
       ],
-      "task_origin": "068"
+      "task_origin": "068",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/69",
+      "github_issue_number": 69
     },
     {
       "key": "T069",
@@ -912,7 +1048,9 @@
       "depends_on": [
         "T068"
       ],
-      "task_origin": "069"
+      "task_origin": "069",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/70",
+      "github_issue_number": 70
     },
     {
       "key": "T070",
@@ -923,7 +1061,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "070"
+      "task_origin": "070",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/71",
+      "github_issue_number": 71
     },
     {
       "key": "T071",
@@ -934,7 +1074,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": "071"
+      "task_origin": "071",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/72",
+      "github_issue_number": 72
     },
     {
       "key": "T072",
@@ -945,7 +1087,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": "072"
+      "task_origin": "072",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/73",
+      "github_issue_number": 73
     },
     {
       "key": "T073",
@@ -956,7 +1100,9 @@
       ],
       "area": "frontend",
       "depends_on": [],
-      "task_origin": "073"
+      "task_origin": "073",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/74",
+      "github_issue_number": 74
     },
     {
       "key": "T074",
@@ -967,7 +1113,9 @@
       ],
       "area": "frontend",
       "depends_on": [],
-      "task_origin": "074"
+      "task_origin": "074",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/75",
+      "github_issue_number": 75
     },
     {
       "key": "T075",
@@ -981,7 +1129,9 @@
         "T012",
         "T101"
       ],
-      "task_origin": "075"
+      "task_origin": "075",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/76",
+      "github_issue_number": 76
     },
     {
       "key": "T076",
@@ -994,7 +1144,9 @@
       "depends_on": [
         "T048"
       ],
-      "task_origin": "076"
+      "task_origin": "076",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/77",
+      "github_issue_number": 77
     },
     {
       "key": "T077",
@@ -1005,7 +1157,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "077"
+      "task_origin": "077",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/78",
+      "github_issue_number": 78
     },
     {
       "key": "T078",
@@ -1016,7 +1170,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "078"
+      "task_origin": "078",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/79",
+      "github_issue_number": 79
     },
     {
       "key": "T079",
@@ -1027,7 +1183,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "079"
+      "task_origin": "079",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/80",
+      "github_issue_number": 80
     },
     {
       "key": "T080",
@@ -1038,7 +1196,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "080"
+      "task_origin": "080",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/1",
+      "github_issue_number": 1
     },
     {
       "key": "T081",
@@ -1049,7 +1209,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "081"
+      "task_origin": "081",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/81",
+      "github_issue_number": 81
     },
     {
       "key": "T082",
@@ -1060,7 +1222,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": "082"
+      "task_origin": "082",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/82",
+      "github_issue_number": 82
     },
     {
       "key": "T083",
@@ -1071,7 +1235,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "083"
+      "task_origin": "083",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/83",
+      "github_issue_number": 83
     },
     {
       "key": "T084",
@@ -1082,7 +1248,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "084"
+      "task_origin": "084",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/84",
+      "github_issue_number": 84
     },
     {
       "key": "T085",
@@ -1093,7 +1261,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "085"
+      "task_origin": "085",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/85",
+      "github_issue_number": 85
     },
     {
       "key": "T086",
@@ -1104,7 +1274,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "086"
+      "task_origin": "086",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/86",
+      "github_issue_number": 86
     },
     {
       "key": "T087",
@@ -1115,7 +1287,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": "087"
+      "task_origin": "087",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/87",
+      "github_issue_number": 87
     },
     {
       "key": "T088",
@@ -1129,7 +1303,9 @@
         "T092",
         "T082"
       ],
-      "task_origin": "088"
+      "task_origin": "088",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/88",
+      "github_issue_number": 88
     },
     {
       "key": "T089",
@@ -1142,7 +1318,9 @@
       "depends_on": [
         "T088"
       ],
-      "task_origin": "089"
+      "task_origin": "089",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/89",
+      "github_issue_number": 89
     },
     {
       "key": "T090",
@@ -1155,7 +1333,9 @@
       "depends_on": [
         "T089"
       ],
-      "task_origin": "090"
+      "task_origin": "090",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/90",
+      "github_issue_number": 90
     },
     {
       "key": "T091",
@@ -1168,7 +1348,9 @@
       "depends_on": [
         "T102"
       ],
-      "task_origin": "091"
+      "task_origin": "091",
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/91",
+      "github_issue_number": 91
     },
     {
       "key": "T092",
@@ -1182,7 +1364,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/92",
+      "github_issue_number": 92
     },
     {
       "key": "T093",
@@ -1194,7 +1378,9 @@
       ],
       "area": "figma",
       "depends_on": [],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/93",
+      "github_issue_number": 93
     },
     {
       "key": "T094",
@@ -1208,7 +1394,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/94",
+      "github_issue_number": 94
     },
     {
       "key": "T095",
@@ -1225,7 +1413,9 @@
       ],
       "area": "uml",
       "depends_on": [],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/95",
+      "github_issue_number": 95
     },
     {
       "key": "T096",
@@ -1244,7 +1434,9 @@
         "T013",
         "T018"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/96",
+      "github_issue_number": 96
     },
     {
       "key": "T097",
@@ -1271,7 +1463,9 @@
         "T044",
         "T064"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/97",
+      "github_issue_number": 97
     },
     {
       "key": "T098",
@@ -1292,7 +1486,9 @@
         "T063",
         "T076"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/98",
+      "github_issue_number": 98
     },
     {
       "key": "T099",
@@ -1310,7 +1506,9 @@
         "T098",
         "T073"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/99",
+      "github_issue_number": 99
     },
     {
       "key": "T100",
@@ -1325,7 +1523,9 @@
       "depends_on": [
         "T091"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/100",
+      "github_issue_number": 100
     },
     {
       "key": "T101",
@@ -1339,7 +1539,9 @@
       ],
       "area": "modelagem",
       "depends_on": [],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/101",
+      "github_issue_number": 101
     },
     {
       "key": "T102",
@@ -1354,7 +1556,9 @@
       ],
       "area": "gestao",
       "depends_on": [],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/102",
+      "github_issue_number": 102
     },
     {
       "key": "T103",
@@ -1370,7 +1574,9 @@
         "T089",
         "T090"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/103",
+      "github_issue_number": 103
     },
     {
       "key": "T104",
@@ -1387,7 +1593,9 @@
         "T103",
         "T085"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/104",
+      "github_issue_number": 104
     },
     {
       "key": "T105",
@@ -1411,7 +1619,9 @@
         "T024",
         "T035"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/105",
+      "github_issue_number": 105
     },
     {
       "key": "T106",
@@ -1450,7 +1660,25 @@
         "T101",
         "T102"
       ],
-      "task_origin": null
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/106",
+      "github_issue_number": 106
+    },
+    {
+      "key": "T107",
+      "title": "[S3][T107][RF20] Implementar consulta e tela do histórico da certificação",
+      "sprint": 3,
+      "requirements": [
+        "RF20"
+      ],
+      "area": "frontend",
+      "depends_on": [
+        "T064",
+        "T093"
+      ],
+      "task_origin": null,
+      "github_issue_url": "https://github.com/breesiqueiramkt/DSM-ABP-breno-/issues/107",
+      "github_issue_number": 107
     }
   ]
 }

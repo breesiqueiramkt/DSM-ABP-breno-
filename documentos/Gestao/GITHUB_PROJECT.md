@@ -1,6 +1,6 @@
 # Configuração do GitHub Project
 
-**Situação deste documento:** especificação de configuração. Não representa um Project já criado. A publicação de issues, branches e arquivos será registrada no relatório de execução.
+**Situação deste documento:** especificação de configuração. Não representa um Project já criado. As issues, branches e arquivos já foram publicados. O Project visual ainda não foi criado.
 
 Nome proposto: **DSM-ABP | TechOwl | 2026-2**. Vincular ao repositório DSM-ABP-breno- e manter a visibilidade privada existente.
 
@@ -30,7 +30,7 @@ Usar o campo Sprint junto às datas oficiais. Caso sejam usadas iterações, con
 
 ## Milestones
 
-Criar três milestones com prazo final em 22/10, 05/11 e 25/11/2026. Preservar o início no texto de cada milestone. Associar cada issue à milestone e ao campo Sprint correspondente.
+As três milestones e a associação das 107 issues foram configuradas com sucesso por `.github/workflows/configurar-abp.yml`, com prazo final em 22/10, 05/11 e 25/11/2026. A distribuição confirmada é 50/31/26. Preservar o início no texto de cada milestone. Associar cada issue à milestone e ao campo Sprint correspondente.
 
 ## Fluxo de trabalho
 
