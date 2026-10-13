@@ -1,0 +1,141 @@
+name: Configurar Sprints e etiquetas da ABP
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/configurar-abp.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: configurar-abp
+  cancel-in-progress: false
+
+jobs:
+  configurar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Configurar milestones e etiquetas das atividades
+        env:
+          ABP_TOKEN: ${{ github.token }}
+          ABP_REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import json, os, time
+          from urllib.request import Request, urlopen
+          from urllib.parse import quote
+          from datetime import datetime, timezone
+          from zoneinfo import ZoneInfo
+
+          repo = os.environ['ABP_REPOSITORY']
+          origin = 'https://api.github.com/repos/' + repo
+          headers = {
+              'Authorization': 'Bearer ' + os.environ['ABP_TOKEN'],
+              'Accept': 'application/vnd.github+json',
+              'X-GitHub-Api-Version': '2022-11-28',
+              'Content-Type': 'application/json',
+              'User-Agent': 'ABP-Repository-Setup',
+          }
+
+          def api(path, method='GET', data=None):
+              body = json.dumps(data).encode() if data is not None else None
+              request = Request(origin + path, data=body, headers=headers, method=method)
+              with urlopen(request, timeout=30) as response:
+                  result = json.load(response)
+              if method != 'GET':
+                  time.sleep(1)
+              return result
+
+          def pages(path):
+              output = []
+              page = 1
+              separator = '&' if '?' in path else '?'
+              while True:
+                  items = api(path + separator + 'per_page=100&page=' + str(page))
+                  output.extend(items)
+                  if len(items) < 100:
+                      return output
+                  page += 1
+
+          definitions = {
+              'sprint:1': ('0E8A16', 'Sprint 1: Figma e modelagem integral, 28/09 a 22/10/2026'),
+              'sprint:2': ('1D76DB', 'Sprint 2: portal e motor da prova, 23/10 a 05/11/2026'),
+              'sprint:3': ('5319E7', 'Sprint 3: resultados e entrega final, 06/11 a 25/11/2026'),
+              'area:gestao': ('FBCA04', 'Gestão do projeto e documentação das decisões'),
+              'area:figma': ('D876E3', 'Protótipo navegável no Figma'),
+              'area:modelagem': ('006B75', 'Modelagem conceitual lógica física e DDL'),
+              'area:uml': ('0052CC', 'Diagramas UML e estados do sistema'),
+              'area:frontend': ('F9D0C4', 'HTML CSS e JavaScript sem frameworks'),
+              'area:backend': ('C2E0C6', 'API regras de negócio e persistência'),
+              'area:conteudo': ('FEF2C0', 'Temas questões imagens e conteúdo didático'),
+              'area:infra': ('BFDADC', 'Docker Compose e ambiente de execução'),
+              'area:testes': ('BFD4F2', 'Validação e evidências dos requisitos'),
+              'tipo:documentacao': ('0075CA', 'Criação ou revisão de artefato documental'),
+              'tipo:implementacao': ('A2EEEF', 'Implementação de funcionalidade ou integração'),
+              'tipo:validacao': ('D4C5F9', 'Revisão teste ou validação de entrega'),
+              'prioridade:alta': ('B60205', 'Atividade prioritária para a entrega ou integridade'),
+              'prioridade:normal': ('E4E669', 'Atividade a ordenar no refinamento da equipe'),
+          }
+          existing_labels = {item['name']: item for item in pages('/labels')}
+          for name, (color, description) in definitions.items():
+              data = {'name': name, 'color': color, 'description': description}
+              existing = existing_labels.get(name)
+              if existing:
+                  if existing['color'].lower() != color.lower() or existing.get('description') != description:
+                      api('/labels/' + quote(name, safe=''), 'PATCH', data)
+              else:
+                  api('/labels', 'POST', data)
+
+          sprint_definitions = [
+              (1, '2026-09-28', '2026-10-22', 'Protótipo completo e modelagem integral',
+               'Figma de RF01 a RF21; UML; modelos conceitual lógico e físico; DER; dicionário e DDL PostgreSQL. Entrega confirmada pelo grupo.'),
+              (2, '2026-10-23', '2026-11-05', 'Portal e motor da certificação',
+               'Implementar RF01 a RF15, estudos, cadastro/login, 48 questões, 150 segundos, feedback, interrupção, retomada e registro do histórico.'),
+              (3, '2026-11-06', '2026-11-25', 'Resultados certificados e entrega final',
+               'RF16 a RF21, nota, certificado com QR Code, validação pública, telas de histórico/progresso, integração, testes e documentação final. Apresentação em 26/11.'),
+          ]
+          existing_milestones = {item['title']: item for item in pages('/milestones?state=all')}
+          milestones = {}
+          for number, start, end, title, details in sprint_definitions:
+              name = 'Sprint ' + str(number) + ' — ' + title
+              due = datetime.fromisoformat(end + 'T23:59:59').replace(tzinfo=ZoneInfo('America/Sao_Paulo'))
+              data = {
+                  'title': name,
+                  'description': 'Início: ' + start + '. Fim: ' + end + '. ' + details,
+                  'due_on': due.astimezone(timezone.utc).isoformat().replace('+00:00', 'Z'),
+              }
+              previous = existing_milestones.get(name)
+              if previous:
+                  milestone = previous
+                  if previous.get('due_on') != data['due_on'] or previous.get('description') != data['description']:
+                      milestone = api('/milestones/' + str(previous['number']), 'PATCH', data)
+              else:
+                  milestone = api('/milestones', 'POST', data)
+              milestones[number] = milestone
+
+          assigned = {1: 0, 2: 0, 3: 0}
+          for issue in pages('/issues?state=all'):
+              if 'pull_request' in issue or '<!-- abp-task:' not in (issue.get('body') or ''):
+                  continue
+              sprint_labels = [label['name'] for label in issue['labels'] if label['name'] in ['sprint:1', 'sprint:2', 'sprint:3']]
+              if len(sprint_labels) != 1:
+                  raise RuntimeError('Issue ' + str(issue['number']) + ' sem Sprint única')
+              sprint = int(sprint_labels[0].split(':')[1])
+              target = milestones[sprint]['number']
+              if not issue.get('milestone') or issue['milestone']['number'] != target:
+                  api('/issues/' + str(issue['number']), 'PATCH', {'milestone': target})
+              assigned[sprint] += 1
+
+          lines = ['# Sprints da ABP configuradas', '', '| Sprint | Issues | Milestone |', '|---|---:|---|']
+          for sprint, milestone in milestones.items():
+              lines.append('| ' + str(sprint) + ' | ' + str(assigned[sprint]) + ' | [' + milestone['title'] + '](' + milestone['html_url'] + ') |')
+          lines += ['', 'Etiquetas de Sprint área tipo e prioridade revisadas. Nenhuma issue foi atribuída ou encerrada.', '',
+                    'GitHub Project visual não é criado por este workflow; sua configuração consta na documentação do repositório.']
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write('\n'.join(lines) + '\n')
+          print('Milestones verificadas; atividades por Sprint:', assigned)
+          PY
